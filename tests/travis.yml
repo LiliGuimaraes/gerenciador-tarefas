@@ -1,0 +1,8 @@
+dist: xenial
+language: python
+python:
+    - 3.8
+install:
+  - pip install -r dev-requirements.txt
+script:
+  - python -m pytest --disable-warnings
